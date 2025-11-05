@@ -1,0 +1,17 @@
+[project]
+name = "perspectives"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.72.0",
+    "google-genai>=1.48.0",
+    "json-repair>=0.52.4",
+    "openai>=2.7.1",
+    "pandas>=2.3.3",
+    "plotly>=6.3.1",
+    "pydantic>=2.12.3",
+    "requests>=2.32.5",
+    "streamlit>=1.51.0",
+]
