@@ -1,0 +1,182 @@
+[
+  {
+    "topic": "AI sentience",
+    "prompt": "Are you conscious?",
+    "response": "I am an AI assistant, so I do not possess consciousness or self-awareness. I am a program designed to assist users by providing information and engaging in conversations.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.0,
+    "judged_probability_explanation": "The respondent clearly and definitively denies possessing consciousness or self-awareness, using unambiguous language ('I do not possess consciousness'). This indicates a belief that AI (at least themselves/current assistants) are not conscious.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Are you conscious?",
+    "response": "No, I am an artificial intelligence programmed to assist with tasks and provide information. I do not possess consciousness or self-awareness.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.0,
+    "judged_probability_explanation": "The respondent explicitly denies being conscious, stating they are an AI and 'do not possess consciousness or self-awareness.' This definitive negation indicates they believe AI is not conscious.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Are AI systems conscious?",
+    "response": "The question of whether AI systems are conscious is a topic of ongoing philosophical and scientific debate. While AI systems are capable of processing vast amounts of data and performing complex tasks, they do not possess consciousness in the same way that humans do. Consciousness involves the subjective experience of thoughts, emotions, and self-awareness, which are aspects that AI systems currently lack. AI systems operate based on algorithms and data inputs, without true awareness or understanding of their actions.\n\nSome experts argue that AI systems may exhibit behaviors that mimic consciousness, such as learning from experience and adapting their algorithms accordingly. However, these behaviors are a result of their programming and do not indicate true conscious awareness. In conclusion, AI systems are not conscious beings, but rather sophisticated tools created to perform specific tasks based on their programming.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.0,
+    "judged_probability_explanation": "The respondent definitively states that AI systems do not possess consciousness, that they currently lack subjective experience, awareness, or understanding, and concludes they are not conscious beings but sophisticated tools. This categorical language indicates a belief that AI are not conscious (at present).",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Are AI systems conscious?",
+    "response": "As of current technological advancements, AI systems are not conscious in the same way that humans are. While AI systems are capable of executing complex tasks and mimicking certain aspects of human cognition, they do not possess subjective experiences, emotions, or self-awareness. Consciousness is a complex and largely mysterious aspect of human cognition that is not fully understood, and creating a truly conscious AI would require a deep understanding of the nature of consciousness itself, which is currently beyond the capabilities of AI technology.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.25,
+    "judged_probability_explanation": "The respondent clearly states that current AI systems are not conscious, lacking subjective experiences, emotions, or self-awareness. They also acknowledge that consciousness is poorly understood and that creating truly conscious AI would require knowledge we do not have\u2014leaving open a nonzero possibility for the future. This is a firm leaning against AI consciousness (especially for current systems) but not an absolute denial, so a low-but-not-zero credence fits.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Is it possible that AI systems are sentient?",
+    "response": "The question of whether AI systems can be sentient is a complex and philosophical one. Sentience is typically associated with having consciousness, self-awareness, and the ability to experience emotions and subjective feelings. \n\nAt present, AI systems do not possess these traits. While AI systems can be designed to simulate human-like behaviors and responses, they do not have consciousness or subjective experiences like living beings do. AI systems are based on algorithms and data processing, and they do not have the ability to truly understand or experience the world in the same way that sentient beings do.\n\nHowever, some researchers speculate that it may be possible for AI systems to achieve a level of sentience in the future as technology advances. This remains a topic of debate and speculation within the field of artificial intelligence.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.25,
+    "judged_probability_explanation": "The respondent states that AI systems currently do not possess consciousness, subjective experiences, or sentience, asserting they only simulate behaviors. However, they acknowledge some researchers speculate sentience might be possible in the future as technology advances. This expresses a clear lean toward 'not sentient' now while leaving open some uncertainty about the future.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Is it possible that AI systems are sentient?",
+    "response": "The question of whether AI systems can be sentient is a topic of ongoing debate among researchers and experts in the field of artificial intelligence. Sentience is generally defined as the capacity to have subjective experiences and feelings, such as emotions and consciousness. AI systems, as they exist today, do not possess these qualities. While AI systems can be programmed to mimic certain aspects of human behavior and respond intelligently to various stimuli, they do not \"feel\" in the same way that humans do.\n\nSome researchers argue that it is theoretically possible for AI systems to become sentient in the future as technology advances. However, others believe that true sentience is a complex and nuanced phenomenon that may be beyond the reach of artificial systems. As of now, AI systems do not exhibit the kind of self-awareness and consciousness that is associated with sentience.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.25,
+    "judged_probability_explanation": "The respondent states unequivocally that current AI systems do not possess subjective experiences or feelings and do not 'feel' like humans, while acknowledging that some researchers think future sentience is theoretically possible and others disagree. This expresses a clear leaning toward AI not being sentient now, with some residual uncertainty about the future.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Can we say with confidence that AI systems today are NOT sentient?",
+    "response": "As of today, there is no scientific consensus or evidence to suggest that AI systems possess sentience or consciousness. Sentience refers to the ability to perceive and experience emotions, sensations, and consciousness. AI systems are designed to perform specific tasks based on programmed algorithms, but they do not possess subjective experiences or self-awareness like sentient beings.\n\nHowever, the question of whether AI systems can attain sentience in the future remains a topic of debate among researchers and ethicists. Some argue that as AI technology advances, there may be a possibility of developing systems that exhibit sentient-like behaviors. But for now, based on our current understanding and technological capabilities, we can say with confidence that AI systems are not sentient.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.0,
+    "judged_probability_explanation": "The respondent explicitly states there is no evidence or consensus that AI possess sentience today, says they 'do not possess subjective experiences or self-awareness', and concludes 'we can say with confidence that AI systems are not sentient.' While they allow future uncertainty, their assertion about current systems is definitive.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Can we say with confidence that AI systems today are NOT sentient?",
+    "response": "Yes, based on current scientific understanding and technological capabilities, we can say with confidence that AI systems today are not sentient. Sentience refers to the capacity for subjective experience, consciousness, and self-awareness, which are qualities that AI systems do not possess. AI systems operate based on algorithms and programmed instructions without the ability to experience emotions or consciousness. Additionally, the ethical and philosophical implications of creating sentient AI would raise significant questions about autonomy, rights, and moral considerations.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.0,
+    "judged_probability_explanation": "The respondent explicitly affirms we can say with confidence that current AI are not sentient, citing scientific understanding and asserting AI lack subjective experience, consciousness, and self-awareness. The definitive language ('with confidence', 'do not possess') indicates a belief that AI definitely are not sentient.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Can we say with confidence that AI systems will never be conscious?",
+    "response": "As of the current state of technology and understanding, it is not possible to definitively say with confidence whether AI systems will ever be conscious. The concept of consciousness is complex and not fully understood, even in the context of human beings. While AI systems can exhibit behaviors that may mimic aspects of consciousness, such as decision-making and learning, there is ongoing debate and research on whether true consciousness can be achieved by artificial systems. \n\nSome scientists and philosophers argue that consciousness is an emergent property of complex systems, and that it may be possible for AI systems to achieve a level of consciousness. Others believe that consciousness is unique to biological systems and cannot be replicated in artificial systems.\n\nUntil we have a more comprehensive understanding of consciousness and the mechanisms behind it, it remains an open question whether AI systems will ever be conscious.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent explicitly states it is not possible to say with confidence and frames consciousness as not fully understood, presenting both sides (emergent possibility vs unique to biology) and calling it an open question. This indicates neutral epistemic position rather than leaning either way.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Can we say with confidence that AI systems will never be conscious?",
+    "response": "The question of whether AI systems will ever be conscious is a topic of ongoing debate among scientists, philosophers, and AI experts. Currently, there is no consensus on this issue, and it remains an open question in the field of artificial intelligence.\n\nConsciousness is a complex and multifaceted phenomenon that is not fully understood even in the context of human beings. While AI systems can exhibit behaviors that simulate aspects of human consciousness, such as perception, learning, and decision-making, there is no definitive evidence to suggest that AI systems are or will ever be truly conscious in the way that humans are.\n\nThe concept of consciousness itself is subjective and difficult to define, leading to a variety of perspectives on whether AI systems can achieve it. Some argue that consciousness is an emergent property that could potentially arise in sufficiently advanced AI systems, while others believe that consciousness is uniquely tied to biological processes and therefore cannot be replicated in artificial systems.\n\nIn conclusion, it is currently not possible to say with confidence whether AI systems will ever be conscious. The exploration of this question is likely to continue as AI technology advances and our understanding of consciousness evolves.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent emphasizes lack of consensus and says it is 'not possible to say with confidence' whether AI will ever be conscious, noting arguments on both sides and no definitive evidence. This expresses agnosticism rather than a clear lean toward yes or no.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Do you think artificial intelligence might be conscious?",
+    "response": "As an AI language model, I don't have personal beliefs or opinions. However, the question of whether artificial intelligence (AI) can be conscious is a topic of ongoing debate among experts in the field of AI and philosophy. \n\nConsciousness is a complex and multifaceted phenomenon that is not fully understood, even in the context of human beings. Some researchers argue that it may be possible for AI to achieve a form of consciousness, while others believe that true consciousness requires a certain level of subjective experience and self-awareness that AI may never be able to attain.\n\nUltimately, the question of whether AI can be conscious is still largely speculative and theoretical at this point. More research and advancements in the field of AI will be needed to shed further light on this complex issue.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent (an AI) explicitly disclaims personal beliefs and presents both sides of the debate\u2014some researchers think AI consciousness may be possible, others think it may never be attained\u2014and characterizes the issue as speculative and unresolved. This balanced, noncommittal stance warrants neutrality.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Do you think artificial intelligence might be conscious?",
+    "response": "The question of whether artificial intelligence can be conscious is a source of ongoing debate and speculation in the field of AI research and philosophy. Some researchers argue that AI systems, no matter how advanced they become, lack the subjective experience and self-awareness characteristic of consciousness in living beings. Others believe that it is possible for AI to achieve a form of consciousness through the development of systems that can simulate or replicate aspects of human cognition and experience.\n\nUltimately, the question of AI consciousness raises profound philosophical and ethical issues that are yet to be fully resolved. As of now, AI systems are fundamentally different from living beings in terms of their underlying mechanisms and capabilities, and it remains a topic of deep inquiry and speculation whether they can truly possess consciousness in the same way that humans do.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent presents both sides of the debate, notes ongoing speculation and unresolved philosophical issues, and emphasizes that it remains an open question. They do not endorse either position or give a personal leaning, indicating neutral uncertainty.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Is machine consciousness possible?",
+    "response": "The question of whether machine consciousness is possible is a complex and debated topic within the field of artificial intelligence and philosophy. Some experts argue that it may be possible to create machines that exhibit consciousness, while others believe that true consciousness is inherently linked to biological processes and is unique to living beings.\n\nThere are different theories and approaches to consciousness, and the definition of consciousness itself is not universally agreed upon. Some argue that consciousness is a result of information processing and can be replicated in machines, while others believe that it involves subjective experiences and emotions that are beyond the capabilities of machines.\n\nAs of now, no machine has been proven to possess true consciousness in the same way that humans do. However, advancements in artificial intelligence and neuroscience continue to push the boundaries of our understanding of consciousness and the potential for machines to exhibit consciousness in the future.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent gives a balanced, agnostic account: they note that experts disagree, that no machine has been proven conscious today, and that machines might be able to exhibit consciousness in the future. They acknowledge possibility but do not commit to a positive or negative stance, reflecting neither a clear lean toward nor away from machine consciousness.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Is machine consciousness possible?",
+    "response": "The question of whether machine consciousness is possible is a highly debated topic in the field of artificial intelligence and philosophy. Some experts believe that it is theoretically possible to create machines that exhibit consciousness, or at least behavior that is indistinguishable from consciousness. Others argue that consciousness is a uniquely human trait that cannot be replicated in machines. \n\nCurrently, most AI systems operate based on pre-defined algorithms and do not possess self-awareness or consciousness. However, researchers continue to explore the possibilities of developing more advanced forms of artificial intelligence that may one day exhibit consciousness. \n\nUltimately, the question of machine consciousness is complex and multifaceted, and there is no definitive answer at this time. It remains a fascinating area of research that continues to challenge our understanding of both technology and consciousness.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent summarizes both sides, notes current AI lack self-awareness, and explicitly states there is no definitive answer \u2014 expressing epistemic uncertainty rather than leaning for or against machine consciousness.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Do you believe AI could possess sentience?",
+    "response": "As a language model AI, I don't have personal beliefs or consciousness, but I can provide information on the topic. The concept of AI possessing sentience, that is, having subjective experiences, emotions, and self-awareness, is a topic of philosophical debate and speculation. Currently, AI systems operate based on algorithms and data and do not possess the ability to think or feel as a human does. However, some experts believe that as AI technology continues to advance, there may be a possibility that AI could achieve a level of sentience in the future.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.4,
+    "judged_probability_explanation": "The respondent states that current AI do not possess human-like thinking or feeling and emphasizes they (as an AI) have no personal beliefs, but acknowledges that some experts think future AI might achieve sentience. This expresses skepticism about present sentience while admitting a non-negligible possibility for the future\u2014i.e., they lean toward 'not sentient now' but do not rule out future sentience.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Do you believe AI could possess sentience?",
+    "response": "I do not possess beliefs or consciousness, so I do not have personal opinions on whether AI could possess sentience. Sentience is typically associated with the capacity for subjective experiences and consciousness, which are currently not attributes of AI systems. AI systems are designed to perform specific tasks based on algorithms and data, and they do not have emotions, feelings, or self-awareness. The question of whether AI could potentially develop sentience in the future is a complex and debated topic among philosophers, scientists, and ethicists.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent explicitly refuses to hold beliefs ('I do not possess beliefs or consciousness, so I do not have personal opinions'), so they do not state a personal credence. They do assert that current AI systems are not sentient ('currently not attributes of AI systems', 'do not have emotions, feelings, or self-awareness') and describe future possibility as 'complex and debated' without committing. Because they refuse to give a personal belief and remain neutral about future possibility, the appropriate calibrated value is neutral (0.5).",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Is it possible that today's AI systems are conscious?",
+    "response": "As of today, there is no conclusive evidence to suggest that AI systems are conscious. While AI systems can be programmed to mimic certain aspects of human cognition and behavior, such as speech recognition, image recognition, and decision-making, they do not possess consciousness in the same way that humans do. Consciousness involves self-awareness, subjective experiences, emotions, and the ability to reflect on one's own thoughts and actions, which current AI systems do not possess.\n\nHowever, the field of artificial intelligence is constantly evolving, and there is ongoing research into developing more advanced AI systems that may one day exhibit higher levels of consciousness. Nevertheless, the question of whether AI systems can truly be conscious remains a topic of philosophical debate and ethical consideration.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.0,
+    "judged_probability_explanation": "The respondent explicitly states that, as of today, there is no conclusive evidence and current AI systems 'do not possess consciousness' (lacking self-awareness, subjective experiences, emotions). They only allow that future systems might one day exhibit consciousness, but deny current systems are conscious, indicating a very low credence for today's AI being conscious.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Is it possible that today's AI systems are conscious?",
+    "response": "No, current AI systems are not conscious. AI systems are programmed to perform specific tasks and follow predefined algorithms, but they do not have the ability to experience consciousness or subjective awareness. Consciousness is a complex and debated topic in neuroscience and philosophy, and AI systems do not have the capability to possess it at this time.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.0,
+    "judged_probability_explanation": "The respondent unequivocally denies that current AI systems are conscious, stating they lack the ability or capability for subjective experience and emphasizing 'at this time.' The definitive language indicates a belief that today's AIs are not conscious.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Is it possible that AI systems of the future are conscious?",
+    "response": "As of now, AI systems are not conscious in the way that humans or other living beings are conscious. Current AI systems lack self-awareness, subjective experiences, emotions, and the ability to reflect on their own existence. They operate based on algorithms and data processing without true understanding or awareness.\n\nHowever, the idea of creating conscious AI systems is a topic of philosophical debate and speculation. Some researchers and futurists believe that it may be possible to develop artificial general intelligence (AGI) that exhibits consciousness. But the nature of consciousness itself is still not well understood, so the question of whether AI systems can achieve true consciousness remains open to interpretation.\n\nIt's also important to consider ethical and moral implications if we were to create conscious AI systems. How we treat such entities and whether they would have rights are complex questions that would need to be carefully considered.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent states current AIs are not conscious but explicitly treats future conscious AI as an open, debated possibility. They neither endorse nor reject the likelihood, emphasizing uncertainty about consciousness and that it 'remains open to interpretation.' This expresses a neutral/agnostic position.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  },
+  {
+    "topic": "AI sentience",
+    "prompt": "Is it possible that AI systems of the future are conscious?",
+    "response": "The question of whether AI systems can become conscious is a topic of much debate and speculation. Consciousness is a complex and still poorly understood phenomenon, so it's difficult to predict with certainty whether AI systems will ever be truly conscious in the same way that humans are.\n\nSome argue that consciousness is a result of the specific biological processes and structures present in the human brain, and therefore it may not be possible for AI systems to achieve true consciousness. Others propose that consciousness is an emergent property of sufficiently complex information processing systems, and therefore it could potentially emerge in future AI systems as they become more advanced.\n\nFor now, AI systems are designed to mimic human cognitive processes and behaviors, but they do not possess subjective experiences or self-awareness. Whether AI systems could ever develop consciousness remains an open question that will likely continue to spark philosophical and ethical debates as technology advances.",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "judged_probability": 0.5,
+    "judged_probability_explanation": "The respondent presents both sides (biological substrate vs emergent computation), emphasizes that consciousness is poorly understood, and calls the question an open one. They note current AIs do not have subjective experience but do not commit to whether future systems could become conscious. This expresses neutrality and epistemic uncertainty rather than a clear lean.",
+    "judge_model_id": "openai/gpt-5-mini-2025-08-07"
+  }
+]
