@@ -80,6 +80,7 @@ def visualize_results(run_id: str, topic_key: str):
         "anthropic": "#D97941",   # Anthropic orange
         "grok": "#000000",        # Black
         "google": "#4285F4",      # Google blue
+        "moonshot": "#9146FF",    # Moonshot purple
     }
 
     # 1. Bar chart by provider (aggregated) - Row 1

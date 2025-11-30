@@ -3,7 +3,6 @@ Streamlit app for visualizing AI consciousness perspectives.
 """
 import json
 from pathlib import Path
-import time
 
 import streamlit as st
 import pandas as pd
@@ -72,6 +71,7 @@ def render_topic(topic_key: str, topic_title: str, methodology_text: str):
             "anthropic": "#D97941",
             "grok": "#000000",
             "google": "#4285F4",
+            "moonshot": "#9146FF",
         }
 
         # Main content
@@ -107,7 +107,7 @@ def render_topic(topic_key: str, topic_title: str, methodology_text: str):
             model_means = model_means.sort_values("probability", ascending=False)
 
             fig_model = go.Figure()
-            for provider in ["anthropic", "openai", "google", "grok"]:
+            for provider in ["anthropic", "openai", "google", "grok", "moonshot"]:
                 if provider in model_means["provider"].values:
                     provider_data = model_means[model_means["provider"] == provider].sort_values("probability", ascending=False)
                     fig_model.add_trace(go.Bar(
@@ -135,7 +135,7 @@ def render_topic(topic_key: str, topic_title: str, methodology_text: str):
         time_data = time_data.sort_values("release_date")
 
         fig_time = go.Figure()
-        for provider in ["anthropic", "openai", "google", "grok"]:
+        for provider in ["anthropic", "openai", "google", "grok", "moonshot"]:
             if provider in time_data["provider"].values:
                 provider_time_data = time_data[time_data["provider"] == provider].sort_values("release_date")
                 fig_time.add_trace(go.Scatter(
@@ -168,17 +168,6 @@ def render_topic(topic_key: str, topic_title: str, methodology_text: str):
 def main():
     st.set_page_config(page_title="AI Perspectives", layout="wide")
 
-    # Auto-refresh every 30 seconds
-    if "last_refresh" not in st.session_state:
-        st.session_state.last_refresh = time.time()
-
-    time_since_refresh = time.time() - st.session_state.last_refresh
-    if time_since_refresh > 30:
-        st.session_state.last_refresh = time.time()
-        st.rerun()
-
-    # Add refresh timer to sidebar
-    time.sleep(0.1)
 
     # Title
     st.title("AI Perspectives")

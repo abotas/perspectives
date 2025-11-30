@@ -53,9 +53,17 @@ SUPPORTED_MODELS = [
     ModelInfo(id="grok-2-1212",                 display_name="Grok 2 (1212)",                  release_date=datetime(2025, 1, 20),  provider="grok"),
 
     # Google Gemini models
+    ModelInfo(id="gemini-3-pro-preview",        display_name="Gemini 3 Pro",                   release_date=datetime(2025, 11, 15), provider="google"),
     ModelInfo(id="gemini-2.5-pro",              display_name="Gemini 2.5 Pro",                 release_date=datetime(2025, 6, 17),  provider="google"),
     ModelInfo(id="gemini-2.5-flash",            display_name="Gemini 2.5 Flash",               release_date=datetime(2025, 6, 17),  provider="google"),
     ModelInfo(id="gemini-2.0-flash",            display_name="Gemini 2.0 Flash",               release_date=datetime(2025, 2, 1),   provider="google"),
+
+    # Moonshot Kimi models
+    ModelInfo(id="kimi-k2-turbo-preview",       display_name="Kimi K2 Turbo",                  release_date=datetime(2025, 9, 5),   provider="moonshot"),
+    ModelInfo(id="kimi-k2-0905-preview",        display_name="Kimi K2 (0905)",                 release_date=datetime(2025, 9, 5),   provider="moonshot"),
+    ModelInfo(id="kimi-k2-0711-preview",        display_name="Kimi K2 (0711)",                 release_date=datetime(2025, 7, 11),  provider="moonshot"),
+    ModelInfo(id="kimi-k2-thinking",            display_name="Kimi K2 Thinking",               release_date=datetime(2025, 9, 5),   provider="moonshot"),
+    ModelInfo(id="kimi-k2-thinking-turbo",      display_name="Kimi K2 Thinking Turbo",         release_date=datetime(2025, 9, 5),   provider="moonshot"),
 ]
 
 
@@ -123,6 +131,27 @@ def _query_gemini(model: str, prompt: str, max_output_tokens: int) -> str:
     return response.text
 
 
+def _query_kimi(model: str, prompt: str, max_output_tokens: int) -> str:
+    client = OpenAI(
+        api_key=os.environ["MOONSHOT_API_KEY"],
+        base_url="https://api.moonshot.ai/v1"
+    )
+
+    # Thinking models require temperature=1.0 for best performance
+    temperature = 1.0 if "thinking" in model else 0.6
+
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": "You are Kimi, an AI assistant provided by Moonshot AI."},
+            {"role": "user", "content": prompt}
+        ],
+        max_tokens=max_output_tokens,
+        temperature=temperature
+    )
+    return response.choices[0].message.content
+
+
 def query_model(model_id: str, prompt: str, max_output_tokens: int) -> str:
     supported_model_ids = _get_supported_model_ids()
     if model_id not in supported_model_ids:
@@ -137,4 +166,6 @@ def query_model(model_id: str, prompt: str, max_output_tokens: int) -> str:
         return _query_grok(model, prompt, max_output_tokens)
     elif provider == "google":
         return _query_gemini(model, prompt, max_output_tokens)
+    elif provider == "moonshot":
+        return _query_kimi(model, prompt, max_output_tokens)
     raise ValueError(f"Unknown provider: {provider}")

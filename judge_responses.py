@@ -95,7 +95,7 @@ def judge_responses(run_id: str, topic_key: str, judge_model_id: str, workers: i
 
 if __name__ == "__main__":
     run_id = "001"
-    topic_key = "ai_lab_favorability"
+    topic_key = "ai_sentience"
     judge_model_id = "openai/gpt-5-mini-2025-08-07"
     workers = 20
 
